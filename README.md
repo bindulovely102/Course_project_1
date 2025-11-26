@@ -1,6 +1,4 @@
-# Course_project_1
-course project
-Title: Console-Based Vehicle Rental Manager
+Title: Vehicle Rental Management
 
 This C program implements a simple, menu-driven vehicle rental manager that lets a user add vehicles, rent and return them, and view their current status in a console interface. It uses arrays to store vehicle IDs, daily rents, and availability flags, and provides basic input/output via printf and scanf.[2][3]
 
