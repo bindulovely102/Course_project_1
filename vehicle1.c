@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main() {
+        printf("\n---- Vehicle Rental Menu ----\n");
+        printf("1. Rent Vehicle\n");
+        printf("2. Return Vehicle\n");
+        printf("3. Display All Vehicles\n");
+        printf("4. Exit\n");
     int n;
     printf("Enter number of vehicles: ");
     scanf("%d", &n);
@@ -24,11 +29,7 @@ int main() {
 
     // Menu loop
     while (1) {
-        printf("\n---- Vehicle Rental Menu ----\n");
-        printf("1. Rent Vehicle\n");
-        printf("2. Return Vehicle\n");
-        printf("3. Display All Vehicles\n");
-        printf("4. Exit\n");
+        
         printf("Enter choice: ");
         scanf("%d", &choice);
 
@@ -102,3 +103,4 @@ int main() {
 
     return 0;
 }
+
