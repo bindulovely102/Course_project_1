@@ -7,7 +7,7 @@ This C program implements a simple, menu-driven vehicle rental manager that lets
 ## Abstract
 The application begins by taking the number of vehicles (1–100), then records each vehicle’s ID and rent per day, marking all as available initially. It presents a looped menu with options to rent a vehicle (marking it unavailable), return a vehicle (marking it available), display all vehicles with their status, or exit. Input validation is included for the vehicle count and for menu choices, with messages for cases like “vehicle not found” or “already rented.” The program demonstrates essential C I/O and control flow constructs useful for beginner-level data-structure practice.[3][2]
 
-## Key features
+## projectfeatures
 - Fixed-size storage: Arrays for up to 100 vehicle IDs, rent-per-day, and availability status.[3]
 - Menu-driven loop: Continuous operations for rent, return, list, and exit using while and if/else.[3]
 - Availability tracking: Status flag 1 = Available, 0 = Rented, updated on rent/return actions.[3]
